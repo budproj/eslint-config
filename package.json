@@ -6,8 +6,7 @@
   "scripts": {
     "clean": "lerna run clean",
     "build": "lerna run build",
-    "publish": "lerna publish --contents dist",
-    "release": "run-s clean build publish"
+    "publish": "lerna publish --contents dist"
   },
   "author": "delucca <delucca@pm.me>",
   "license": "Apache-2.0",
