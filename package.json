@@ -6,6 +6,7 @@
   "scripts": {
     "clean": "lerna run clean",
     "build": "lerna run build",
+    "prepublish": "lerna run build",
     "publish": "lerna publish --contents dist"
   },
   "author": "delucca <delucca@pm.me>",
