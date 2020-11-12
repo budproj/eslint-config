@@ -1,12 +1,12 @@
 {
   "name": "@budproj/eslint-config-prettier-ts",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Base eslint config for Bud projects using Prettier and Typescript",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf -rf ./dist",
     "copy": "mkdir dist && cp *.js README.md package.json ../../LICENSE dist",
-    "publish": "run-s clean copy"
+    "prepublish": "run-s clean copy"
   },
   "author": "delucca <delucca@pm.me>",
   "license": "Apache-2.0",
@@ -32,5 +32,5 @@
     "eslint": "^7.x",
     "eslint-plugin-prettier": "^3.x"
   },
-  "gitHead": "deb10218b8b67818cb922743e0a16f33365556a0"
+  "gitHead": "a077d9419b7a9bb25aad70dd4d8658784096e72e"
 }
