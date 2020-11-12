@@ -6,7 +6,7 @@
   "scripts": {
     "build": "run-s clean copy",
     "clean": "rimraf -rf ./dist",
-    "copy": "mkdir dist && cp *.js README.md package.json ../../LICENSE dist"
+    "copy": "mkdir dist && cp *.js README.md ../../LICENSE dist"
   },
   "author": "delucca <delucca@pm.me>",
   "license": "Apache-2.0",
@@ -29,5 +29,5 @@
     "eslint": "^7.x",
     "eslint-plugin-formatjs": "^2.x"
   },
-  "gitHead": "25e34707eb9a894043357836d3de1a7517af773a"
+  "gitHead": "7923c188c783fafec355ad1f0d61de0a2f473ebc"
 }
