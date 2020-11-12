@@ -23,7 +23,7 @@ You can use the most basic Eslint config by using the following rule:
 
 ```json
 {
-  "extends": "@budproj/eslint-config/preset-base"
+  "extends": "@bud/eslint-config/preset-base"
 }
 ```
 
@@ -33,13 +33,13 @@ You can use the most basic Eslint config by using the following rule:
 
 You can use our configs by picking one of the given available presets:
 
-* [`@budproj/eslint-config/preset-base`](preset-base.js)
-* [`@budproj/eslint-config/preset-typescript`](preset-typescript.js)
-* [`@budproj/eslint-config/preset-react`](preset-react.js)
-* [`@budproj/eslint-config/preset-intl`](preset-intl.js)
-* [`@budproj/eslint-config/preset-prettier`](preset-prettier.js)
-* [`@budproj/eslint-config/preset-prettier-ts`](preset-prettier-ts.js)
-* [`@budproj/eslint-config/preset-backend`](preset-backend.js)
+* [`@bud/eslint-config/preset-base`](preset-base.js)
+* [`@bud/eslint-config/preset-typescript`](preset-typescript.js)
+* [`@bud/eslint-config/preset-react`](preset-react.js)
+* [`@bud/eslint-config/preset-intl`](preset-intl.js)
+* [`@bud/eslint-config/preset-prettier`](preset-prettier.js)
+* [`@bud/eslint-config/preset-prettier-ts`](preset-prettier-ts.js)
+* [`@bud/eslint-config/preset-backend`](preset-backend.js)
 
 ## 💻 Contributing
 
