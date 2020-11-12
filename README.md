@@ -4,7 +4,7 @@
   <br>
 </p>
 <p align="center">
-Global shareable eslint configs to use accross multiple projects 
+Global shareable linter configs to use across multiple projects 
 </p>
 
 ## 📖 About this
