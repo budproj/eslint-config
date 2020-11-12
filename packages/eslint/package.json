@@ -1,6 +1,6 @@
 {
   "name": "@bud/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Eslint preset for Bud Javascript projects",
   "main": "index.js",
   "scripts": {
