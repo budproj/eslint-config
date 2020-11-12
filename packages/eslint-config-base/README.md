@@ -4,7 +4,7 @@
   <br>
 </p>
 <p align="center">
-Eslint preset for Bud Javascript projects
+Base eslint config for Bud Javascript projects
 </p>
 
 ## 📖 About this
@@ -13,33 +13,24 @@ This package contains all the base, common Javascriot Eslint configs for all Jav
 
 * [Table of contents](#)
   * [Quickstart](#-quickstart)
-  * [Usage](#-usage)
   * [Contributing](#-contributing)
   * [License](#-license)
 
 ## 🧙‍♂️ Quickstart
 
-You can use the most basic Eslint config by using the following rule:
+To install this config, you must run the following command:
+
+```sh
+yarn add -D eslint eslint-plugin-unicorn eslint-plugin-editorconfig eslint-config-bud-base
+```
+
+To use it, you can put the following in your `.eslintrc` file:
 
 ```json
 {
-  "extends": "@budproj/eslint-config/preset-base"
+  "extends": "bud-base"
 }
 ```
-
-**IMPORTANT:** You can change the desired preset. To check our available presets check the [Usage](#-usage) section.
-
-## 👩‍🔬 Usage
-
-You can use our configs by picking one of the given available presets:
-
-* [`@budproj/eslint-config/preset-base`](preset-base.js)
-* [`@budproj/eslint-config/preset-typescript`](preset-typescript.js)
-* [`@budproj/eslint-config/preset-react`](preset-react.js)
-* [`@budproj/eslint-config/preset-intl`](preset-intl.js)
-* [`@budproj/eslint-config/preset-prettier`](preset-prettier.js)
-* [`@budproj/eslint-config/preset-prettier-ts`](preset-prettier-ts.js)
-* [`@budproj/eslint-config/preset-backend`](preset-backend.js)
 
 ## 💻 Contributing
 

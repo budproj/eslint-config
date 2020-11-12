@@ -1,6 +1,6 @@
 module.exports = {
   parser: "@typescript-eslint/parser",
-  extends: ["./preset-base", "xo-typescript", "plugin:import/typescript"],
+  extends: ["bud-base", "xo-typescript", "plugin:import/typescript"],
   plugins: ["@typescript-eslint", "import", "unused-imports"],
   rules: {
     "import/prefer-default-export": "off",
@@ -30,9 +30,14 @@ module.exports = {
     ],
   },
   "settings": {
+    "import/ignore": ["node_modules"],
     "import/parsers": {
       "@typescript-eslint/parser": [".ts", ".tsx"]
     },
-    "import/ignore": ["node_modules"],
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      },
+    },
   },
 }
