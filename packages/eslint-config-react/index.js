@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["xo-react"],
+  extends: ["xo-react", "xo-react/space"],
 }
