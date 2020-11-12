@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.0",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "packages": [
@@ -7,7 +7,7 @@
   ],
   "command": {
     "publish": {
-      "registry": "https://npm.pkg.github.com/budproj/javascript-linters"
+      "registry": "https://npm.pkg.github.com/"
     }
   }
 }
