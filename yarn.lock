@@ -120,9 +120,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@bud/eslint-config@workspace:packages/eslint":
+"@budproj/eslint-config@workspace:packages/eslint":
   version: 0.0.0-use.local
-  resolution: "@bud/eslint-config@workspace:packages/eslint"
+  resolution: "@budproj/eslint-config@workspace:packages/eslint"
   dependencies:
     "@typescript-eslint/eslint-plugin": ^4.7.0
     "@typescript-eslint/parser": ^4.7.0
@@ -142,15 +142,6 @@ __metadata:
     rimraf: ^3.0.2
   peerDependencies:
     eslint: "*"
-  languageName: unknown
-  linkType: soft
-
-"@bud/javascript-linters@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@bud/javascript-linters@workspace:."
-  dependencies:
-    lerna: ^3.22.1
-    npm-run-all: ^4.1.5
   languageName: unknown
   linkType: soft
 
@@ -4754,6 +4745,15 @@ __metadata:
   checksum: 8e6e5c4cf1823562db7035d2e7bac388412060fe9bc6727eca8c608def5aa57709165c51c2e68a2fce6ff0b64d79489501b84715060c5e8a477b87b6cbcd1eca
   languageName: node
   linkType: hard
+
+"javascript-linters@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "javascript-linters@workspace:."
+  dependencies:
+    lerna: ^3.22.1
+    npm-run-all: ^4.1.5
+  languageName: unknown
+  linkType: soft
 
 "js-tokens@npm:^3.0.0 || ^4.0.0, js-tokens@npm:^4.0.0":
   version: 4.0.0
