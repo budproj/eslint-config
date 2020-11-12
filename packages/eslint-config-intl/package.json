@@ -1,12 +1,12 @@
 {
   "name": "@budproj/eslint-config-intl",
-  "version": "0.0.5",
+  "version": "0.0.4",
   "description": "Base eslint config for Bud Intl projects",
   "main": "index.js",
   "scripts": {
-    "build": "run-s clean copy",
     "clean": "rimraf -rf ./dist",
-    "copy": "mkdir dist && cp *.js README.md package.json ../../LICENSE dist"
+    "copy": "mkdir dist && cp *.js README.md package.json ../../LICENSE dist",
+    "prepare": "run-s clean copy"
   },
   "author": "delucca <delucca@pm.me>",
   "license": "Apache-2.0",
@@ -29,5 +29,5 @@
     "eslint": "^7.x",
     "eslint-plugin-formatjs": "^2.x"
   },
-  "gitHead": "a077d9419b7a9bb25aad70dd4d8658784096e72e"
+  "gitHead": "b53270915adee5d21e66b5e8baa712254e82e87e"
 }
