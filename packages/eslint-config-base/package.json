@@ -33,5 +33,6 @@
     "eslint": "^7.x",
     "eslint-plugin-editorconfig": "^2.x",
     "eslint-plugin-unicorn": "^23.x"
-  }
+  },
+  "gitHead": "6e0a59c1969b42bc6086b76ee04582dc7a1884bb"
 }
