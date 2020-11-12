@@ -120,6 +120,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@bud/eslint-config@workspace:packages/eslint":
+  version: 0.0.0-use.local
+  resolution: "@bud/eslint-config@workspace:packages/eslint"
+  dependencies:
+    "@typescript-eslint/eslint-plugin": ^4.7.0
+    "@typescript-eslint/parser": ^4.7.0
+    eslint-config-xo: ^0.33.1
+    eslint-config-xo-react: ^0.23.0
+    eslint-config-xo-space: ^0.25.0
+    eslint-config-xo-typescript: ^0.35.0
+    eslint-plugin-editorconfig: ^2.1.3
+    eslint-plugin-formatjs: ^2.9.6
+    eslint-plugin-import: ^2.22.1
+    eslint-plugin-prettier: ^3.1.4
+    eslint-plugin-react: ^7.21.5
+    eslint-plugin-react-hooks: ^4.2.0
+    eslint-plugin-unicorn: ^23.0.0
+    eslint-plugin-unused-imports: ^1.0.0
+    npm-run-all: ^4.1.5
+    rimraf: ^3.0.2
+  peerDependencies:
+    eslint: "*"
+  languageName: unknown
+  linkType: soft
+
 "@bud/javascript-linters@workspace:.":
   version: 0.0.0-use.local
   resolution: "@bud/javascript-linters@workspace:."
@@ -3000,31 +3025,6 @@ __metadata:
   checksum: 29f61d556f98454487f26c611e5e3094e6981feaea1b803ca6c6ad436edd84f53146064fdeaf7b04f2e48bc89d066a4c44765afbd48e6ea7e73a09d89661bed9
   languageName: node
   linkType: hard
-
-"eslint-config-bud@workspace:packages/eslint":
-  version: 0.0.0-use.local
-  resolution: "eslint-config-bud@workspace:packages/eslint"
-  dependencies:
-    "@typescript-eslint/eslint-plugin": ^4.7.0
-    "@typescript-eslint/parser": ^4.7.0
-    eslint-config-xo: ^0.33.1
-    eslint-config-xo-react: ^0.23.0
-    eslint-config-xo-space: ^0.25.0
-    eslint-config-xo-typescript: ^0.35.0
-    eslint-plugin-editorconfig: ^2.1.3
-    eslint-plugin-formatjs: ^2.9.6
-    eslint-plugin-import: ^2.22.1
-    eslint-plugin-prettier: ^3.1.4
-    eslint-plugin-react: ^7.21.5
-    eslint-plugin-react-hooks: ^4.2.0
-    eslint-plugin-unicorn: ^23.0.0
-    eslint-plugin-unused-imports: ^1.0.0
-    npm-run-all: ^4.1.5
-    rimraf: ^3.0.2
-  peerDependencies:
-    eslint: "*"
-  languageName: unknown
-  linkType: soft
 
 "eslint-config-xo-react@npm:^0.23.0":
   version: 0.23.0
