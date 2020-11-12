@@ -1,6 +1,6 @@
 {
   "name": "@budproj/eslint-config-prettier-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Base eslint config for Bud projects using Prettier and Typescript",
   "main": "index.js",
   "scripts": {
