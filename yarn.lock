@@ -32,6 +32,92 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@budproj/eslint-config-base-ts@workspace:packages/eslint-config-base-ts":
+  version: 0.0.0-use.local
+  resolution: "@budproj/eslint-config-base-ts@workspace:packages/eslint-config-base-ts"
+  dependencies:
+    "@budproj/eslint-config-base": ^0.0.1
+    "@typescript-eslint/eslint-plugin": ^4.7.0
+    "@typescript-eslint/parser": ^4.7.0
+    eslint-config-xo-typescript: ^0.35.0
+    npm-run-all: ^4.1.5
+    rimraf: ^3.0.2
+  peerDependencies:
+    eslint: ^7.x
+    eslint-import-resolver-typescript: ^2.x
+    eslint-plugin-editorconfig: ^2.x
+    eslint-plugin-import: ^2.x
+    eslint-plugin-unicorn: ^23.x
+    eslint-plugin-unused-imports: ^1.x
+  languageName: unknown
+  linkType: soft
+
+"@budproj/eslint-config-base@^0.0.1, @budproj/eslint-config-base@workspace:packages/eslint-config-base":
+  version: 0.0.0-use.local
+  resolution: "@budproj/eslint-config-base@workspace:packages/eslint-config-base"
+  dependencies:
+    eslint-config-xo: ^0.33.1
+    eslint-config-xo-space: ^0.25.0
+    npm-run-all: ^4.1.5
+    rimraf: ^3.0.2
+  peerDependencies:
+    eslint: ^7.x
+    eslint-plugin-editorconfig: ^2.x
+    eslint-plugin-unicorn: ^23.x
+  languageName: unknown
+  linkType: soft
+
+"@budproj/eslint-config-intl@workspace:packages/eslint-config-intl":
+  version: 0.0.0-use.local
+  resolution: "@budproj/eslint-config-intl@workspace:packages/eslint-config-intl"
+  dependencies:
+    npm-run-all: ^4.1.5
+    rimraf: ^3.0.2
+  peerDependencies:
+    eslint: ^7.x
+    eslint-plugin-formatjs: ^2.x
+  languageName: unknown
+  linkType: soft
+
+"@budproj/eslint-config-prettier-ts@workspace:packages/eslint-config-prettier-ts":
+  version: 0.0.0-use.local
+  resolution: "@budproj/eslint-config-prettier-ts@workspace:packages/eslint-config-prettier-ts"
+  dependencies:
+    "@budproj/eslint-config-prettier": ^0.0.1
+    npm-run-all: ^4.1.5
+    rimraf: ^3.0.2
+  peerDependencies:
+    eslint: ^7.x
+    eslint-plugin-prettier: ^3.x
+  languageName: unknown
+  linkType: soft
+
+"@budproj/eslint-config-prettier@^0.0.1, @budproj/eslint-config-prettier@workspace:packages/eslint-config-prettier":
+  version: 0.0.0-use.local
+  resolution: "@budproj/eslint-config-prettier@workspace:packages/eslint-config-prettier"
+  dependencies:
+    npm-run-all: ^4.1.5
+    rimraf: ^3.0.2
+  peerDependencies:
+    eslint: ^7.x
+    eslint-plugin-prettier: ^3.x
+  languageName: unknown
+  linkType: soft
+
+"@budproj/eslint-config-react@workspace:packages/eslint-config-react":
+  version: 0.0.0-use.local
+  resolution: "@budproj/eslint-config-react@workspace:packages/eslint-config-react"
+  dependencies:
+    eslint-config-xo-react: ^0.23.0
+    npm-run-all: ^4.1.5
+    rimraf: ^3.0.2
+  peerDependencies:
+    eslint: ^7.x
+    eslint-plugin-react: ^7.x
+    eslint-plugin-react-hooks: ^4.x
+  languageName: unknown
+  linkType: soft
+
 "@evocateur/libnpmaccess@npm:^3.1.2":
   version: 3.1.2
   resolution: "@evocateur/libnpmaccess@npm:3.1.2"
@@ -2557,91 +2643,6 @@ __metadata:
   checksum: f9484b8b4c8827d816e0fd905c25ed4b561376a9c220e1430403ea84619bf680c76a883a48cff8b8e091daf55d6a497e37479f9787b9f15f3c421b6054289744
   languageName: node
   linkType: hard
-
-"eslint-config-bud-base-ts@workspace:packages/eslint-config-base-ts":
-  version: 0.0.0-use.local
-  resolution: "eslint-config-bud-base-ts@workspace:packages/eslint-config-base-ts"
-  dependencies:
-    "@typescript-eslint/eslint-plugin": ^4.7.0
-    "@typescript-eslint/parser": ^4.7.0
-    eslint-config-bud-base: ^0.0.1
-    eslint-config-xo-typescript: ^0.35.0
-    npm-run-all: ^4.1.5
-    rimraf: ^3.0.2
-  peerDependencies:
-    eslint: ^7.x
-    eslint-import-resolver-typescript: ^2.x
-    eslint-plugin-editorconfig: ^2.x
-    eslint-plugin-import: ^2.x
-    eslint-plugin-unicorn: ^23.x
-    eslint-plugin-unused-imports: ^1.x
-  languageName: unknown
-  linkType: soft
-
-"eslint-config-bud-base@^0.0.1, eslint-config-bud-base@workspace:packages/eslint-config-base":
-  version: 0.0.0-use.local
-  resolution: "eslint-config-bud-base@workspace:packages/eslint-config-base"
-  dependencies:
-    eslint-config-xo: ^0.33.1
-    eslint-config-xo-space: ^0.25.0
-    npm-run-all: ^4.1.5
-    rimraf: ^3.0.2
-  peerDependencies:
-    eslint: ^7.x
-    eslint-plugin-editorconfig: ^2.x
-    eslint-plugin-unicorn: ^23.x
-  languageName: unknown
-  linkType: soft
-
-"eslint-config-bud-intl@workspace:packages/eslint-config-intl":
-  version: 0.0.0-use.local
-  resolution: "eslint-config-bud-intl@workspace:packages/eslint-config-intl"
-  dependencies:
-    npm-run-all: ^4.1.5
-    rimraf: ^3.0.2
-  peerDependencies:
-    eslint: ^7.x
-    eslint-plugin-formatjs: ^2.x
-  languageName: unknown
-  linkType: soft
-
-"eslint-config-bud-prettier-ts@workspace:packages/eslint-config-prettier-ts":
-  version: 0.0.0-use.local
-  resolution: "eslint-config-bud-prettier-ts@workspace:packages/eslint-config-prettier-ts"
-  dependencies:
-    npm-run-all: ^4.1.5
-    rimraf: ^3.0.2
-  peerDependencies:
-    eslint: ^7.x
-    eslint-plugin-prettier: ^3.x
-  languageName: unknown
-  linkType: soft
-
-"eslint-config-bud-prettier@workspace:packages/eslint-config-prettier":
-  version: 0.0.0-use.local
-  resolution: "eslint-config-bud-prettier@workspace:packages/eslint-config-prettier"
-  dependencies:
-    npm-run-all: ^4.1.5
-    rimraf: ^3.0.2
-  peerDependencies:
-    eslint: ^7.x
-    eslint-plugin-prettier: ^3.x
-  languageName: unknown
-  linkType: soft
-
-"eslint-config-bud-react@workspace:packages/eslint-config-react":
-  version: 0.0.0-use.local
-  resolution: "eslint-config-bud-react@workspace:packages/eslint-config-react"
-  dependencies:
-    eslint-config-xo-react: ^0.23.0
-    npm-run-all: ^4.1.5
-    rimraf: ^3.0.2
-  peerDependencies:
-    eslint: ^7.x
-    eslint-plugin-react: ^7.x
-    eslint-plugin-react-hooks: ^4.x
-  languageName: unknown
-  linkType: soft
 
 "eslint-config-xo-react@npm:^0.23.0":
   version: 0.23.0
