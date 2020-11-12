@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-bud",
+  "name": "@bud/eslint-config",
   "version": "0.0.1",
   "description": "Eslint preset for Bud Javascript projects",
   "main": "index.js",
@@ -43,5 +43,6 @@
   },
   "peerDependencies": {
     "eslint": "*"
-  }
+  },
+  "gitHead": "c6f25e7b91a8df78b0d418c2732b252d22d89829"
 }
