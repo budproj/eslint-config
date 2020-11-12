@@ -6,7 +6,7 @@
   "scripts": {
     "build": "run-s clean copy",
     "clean": "rimraf -rf ./dist",
-    "copy": "mkdir dist && cp src/*.js README.md package.json ../../LICENSE dist"
+    "copy": "mkdir dist && cp *.js README.md package.json ../../LICENSE dist"
   },
   "author": "delucca <delucca@pm.me>",
   "license": "Apache-2.0",
@@ -31,7 +31,7 @@
   },
   "peerDependencies": {
     "eslint": "^7.x",
-    "eslint-plugin-unicorn": "^23.x",
-    "eslint-plugin-editorconfig": "^2.x"
+    "eslint-plugin-editorconfig": "^2.x",
+    "eslint-plugin-unicorn": "^23.x"
   }
 }
