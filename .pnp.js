@@ -42,7 +42,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["lerna", "npm:3.22.1"]
+            ["lerna", "npm:3.22.1"],
+            ["npm-run-all", "npm:4.1.5"]
           ],
           "linkType": "SOFT",
         }]
@@ -204,7 +205,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@bud/javascript-linters", "workspace:."],
-            ["lerna", "npm:3.22.1"]
+            ["lerna", "npm:3.22.1"],
+            ["npm-run-all", "npm:4.1.5"]
           ],
           "linkType": "SOFT",
         }]
