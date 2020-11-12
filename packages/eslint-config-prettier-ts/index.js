@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["bud-prettier", "prettier/@typescript-eslint"],
+  extends: ["@budproj/eslint-config-prettier", "prettier/@typescript-eslint"],
 }

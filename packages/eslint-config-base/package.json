@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-bud-base",
+  "name": "@budproj/eslint-config-base",
   "version": "0.0.1",
   "description": "Base eslint config for Bud Javascript projects",
   "main": "index.js",

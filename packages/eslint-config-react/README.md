@@ -21,14 +21,14 @@ This package contains all the base, common Javascriot Eslint configs for all Rea
 To install this config, you must run the following command:
 
 ```sh
-yarn add -D eslint eslint-plugin-react eslint-plugin-react-hooks eslint-config-bud-react
+yarn add -D eslint eslint-plugin-react eslint-plugin-react-hooks @budproj/eslint-config-react
 ```
 
 To use it, you can put the following in your `.eslintrc` file:
 
 ```json
 {
-  "extends": "bud-react"
+  "extends": "@budproj/eslint-config-react"
 }
 ```
 

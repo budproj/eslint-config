@@ -1,6 +1,6 @@
 module.exports = {
   parser: "@typescript-eslint/parser",
-  extends: ["bud-base", "xo-typescript", "plugin:import/typescript"],
+  extends: ["@budproj/eslint-config-base", "xo-typescript", "plugin:import/typescript"],
   plugins: ["@typescript-eslint", "import", "unused-imports"],
   rules: {
     "import/prefer-default-export": "off",

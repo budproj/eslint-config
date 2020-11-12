@@ -21,14 +21,14 @@ This package contains all the base, common Javascriot Eslint configs for project
 To install this config, you must run the following command:
 
 ```sh
-yarn add -D eslint eslint-plugin-prettier eslint-config-bud-prettier
+yarn add -D eslint eslint-plugin-prettier @budproj/eslint-config-prettier
 ```
 
 To use it, you can put the following in your `.eslintrc` file:
 
 ```json
 {
-  "extends": "bud-prettier"
+  "extends": "@budproj/eslint-config-prettier"
 }
 ```
 

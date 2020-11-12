@@ -21,14 +21,14 @@ This package contains all the base, common Javascriot Eslint configs for all Typ
 To install this config, you must run the following command:
 
 ```sh
-yarn add -D eslint eslint-plugin-unicorn eslint-plugin-editorconfig eslint-plugin-import eslint-plugin-unused-imports eslint-import-resolver-typescript eslint-config-bud-base-ts
+yarn add -D eslint eslint-plugin-unicorn eslint-plugin-editorconfig eslint-plugin-import eslint-plugin-unused-imports eslint-import-resolver-typescript @budproj/eslint-config-base-ts
 ```
 
 To use it, you can put the following in your `.eslintrc` file:
 
 ```json
 {
-  "extends": "bud-base-ts"
+  "extends": "@budproj/eslint-config-base-ts",
 }
 ```
 

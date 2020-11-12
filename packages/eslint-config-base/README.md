@@ -21,14 +21,14 @@ This package contains all the base, common Javascriot Eslint configs for all Jav
 To install this config, you must run the following command:
 
 ```sh
-yarn add -D eslint eslint-plugin-unicorn eslint-plugin-editorconfig eslint-config-bud-base
+yarn add -D eslint eslint-plugin-unicorn eslint-plugin-editorconfig @budproj/eslint-config-base
 ```
 
 To use it, you can put the following in your `.eslintrc` file:
 
 ```json
 {
-  "extends": "bud-base"
+  "extends": "@budproj/eslint-config-base"
 }
 ```
 
