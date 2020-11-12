@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf -rf ./dist",
     "copy": "mkdir dist && cp *.js README.md package.json ../../LICENSE dist",
-    "prepare": "run-s clean copy"
+    "version": "run-s clean copy"
   },
   "author": "delucca <delucca@pm.me>",
   "license": "Apache-2.0",
