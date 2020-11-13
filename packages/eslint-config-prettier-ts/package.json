@@ -1,6 +1,6 @@
 {
   "name": "@budproj/eslint-config-prettier-ts",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Base eslint config for Bud projects using Prettier and Typescript",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "node": ">=15.0.0"
   },
   "dependencies": {
-    "@budproj/eslint-config-prettier": "^0.0.7"
+    "@budproj/eslint-config-prettier": "^0.0.8"
   },
   "devDependencies": {
     "npm-run-all": "^4.1.5",
