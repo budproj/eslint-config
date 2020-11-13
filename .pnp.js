@@ -45,6 +45,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {
         "name": "@budproj/eslint-config-react",
         "reference": "workspace:packages/eslint-config-react"
+      },
+      {
+        "name": "@budproj/prettier-config",
+        "reference": "workspace:packages/prettier-config"
       }
     ],
     "enableTopLevelFallback": true,
@@ -56,6 +60,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ["@budproj/eslint-config-prettier", ["virtual:3aeca8d3a4626111b6d7b3055b891991f47ec36eb0d7e0dc1f248eb1e57fa870e023391476513c33b0d58a4a7b2a042d6a06571b9f7026bc1e97d003adcaa076#workspace:packages/eslint-config-prettier", "workspace:packages/eslint-config-prettier"]],
       ["@budproj/eslint-config-prettier-ts", ["workspace:packages/eslint-config-prettier-ts"]],
       ["@budproj/eslint-config-react", ["workspace:packages/eslint-config-react"]],
+      ["@budproj/prettier-config", ["workspace:packages/prettier-config"]],
       ["javascript-linters", ["workspace:."]]
     ],
     "fallbackPool": [
@@ -216,6 +221,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@budproj/eslint-config-react", "workspace:packages/eslint-config-react"],
             ["eslint-config-xo-react", "virtual:304ae922979ecdf3a279d34d6c9dc74b3232712d83eff7cacd48f648667c5325d62356511a7bd72792e9cac94dcb7097d8deae9b4cd53c0ddfd7345e5a67f7da#npm:0.23.0"],
+            ["npm-run-all", "npm:4.1.5"],
+            ["rimraf", "npm:3.0.2"]
+          ],
+          "linkType": "SOFT",
+        }]
+      ]],
+      ["@budproj/prettier-config", [
+        ["workspace:packages/prettier-config", {
+          "packageLocation": "./packages/prettier-config/",
+          "packageDependencies": [
+            ["@budproj/prettier-config", "workspace:packages/prettier-config"],
             ["npm-run-all", "npm:4.1.5"],
             ["rimraf", "npm:3.0.2"]
           ],
