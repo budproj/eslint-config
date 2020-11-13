@@ -1,6 +1,6 @@
 {
   "name": "@budproj/eslint-config-intl",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Base eslint config for Bud Intl projects",
   "main": "index.js",
   "scripts": {
