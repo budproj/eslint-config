@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["xo-react", "xo-react/space", "stylelint"],
+  extends: ["xo-react", "xo-react/space"],
   rules: {
     "react/jsx-tag-spacing": [
       "error",

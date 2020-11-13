@@ -22,7 +22,6 @@
     "node": ">=15.0.0"
   },
   "dependencies": {
-    "eslint-config-stylelint": "^13.0.0",
     "eslint-config-xo-react": "^0.23.0"
   },
   "devDependencies": {
