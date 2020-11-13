@@ -29,5 +29,8 @@
     "eslint": "^7.x",
     "eslint-plugin-prettier": "^3.x"
   },
-  "gitHead": "b53270915adee5d21e66b5e8baa712254e82e87e"
+  "gitHead": "b53270915adee5d21e66b5e8baa712254e82e87e",
+  "dependencies": {
+    "eslint-config-prettier": "^6.15.0"
+  }
 }
