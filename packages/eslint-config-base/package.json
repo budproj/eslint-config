@@ -4,9 +4,9 @@
   "description": "Base eslint config for Bud Javascript projects",
   "main": "index.js",
   "scripts": {
+    "build": "run-s clean copy",
     "clean": "rimraf -rf ./dist",
-    "copy": "mkdir dist && cp *.js README.md package.json ../../LICENSE dist",
-    "version": "run-s clean copy"
+    "copy": "mkdir dist && cp *.js README.md package.json ../../LICENSE dist"
   },
   "author": "delucca <delucca@pm.me>",
   "license": "Apache-2.0",
