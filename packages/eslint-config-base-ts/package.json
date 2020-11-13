@@ -1,6 +1,6 @@
 {
   "name": "@budproj/eslint-config-base-ts",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Base eslint config for Bud Typescript projects",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "node": ">=15.0.0"
   },
   "dependencies": {
-    "@budproj/eslint-config-base": "^0.0.5",
+    "@budproj/eslint-config-base": "^0.0.6",
     "@typescript-eslint/eslint-plugin": "^4.7.0",
     "@typescript-eslint/parser": "^4.7.0",
     "eslint-config-xo-typescript": "^0.35.0"
