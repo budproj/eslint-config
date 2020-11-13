@@ -8,6 +8,7 @@ module.exports = {
         beforeSelfClosing: "always",
         afterOpening: "never",
         beforeClosing: "never",
-      }
+      },
+    ],
   },
 }
