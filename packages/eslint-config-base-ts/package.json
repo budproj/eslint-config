@@ -4,7 +4,7 @@
   "description": "Base eslint config for Bud Typescript projects",
   "main": "index.js",
   "scripts": {
-    "build": "run-s clean copy",
+    "build": "yarn run copy",
     "clean": "rimraf -rf ./dist",
     "copy": "mkdir dist && cp *.js README.md package.json ../../LICENSE dist"
   },
