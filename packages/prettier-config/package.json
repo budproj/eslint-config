@@ -18,7 +18,7 @@
     "url": "https://github.com/budproj/javascript-linters/issues"
   },
   "engines": {
-    "yarn": ">=2.3.3",
+    "yarn": ">=1.22.10",
     "node": ">=15.0.0"
   },
   "devDependencies": {
@@ -26,6 +26,6 @@
     "rimraf": "^3.0.2"
   },
   "peerDependencies": {
-    "eslint": "^2.x"
+    "eslint": "^7.13.0"
   }
 }

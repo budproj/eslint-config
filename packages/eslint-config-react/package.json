@@ -18,7 +18,7 @@
     "url": "https://github.com/budproj/javascript-linters/issues"
   },
   "engines": {
-    "yarn": ">=2.3.3",
+    "yarn": ">=1.22.10",
     "node": ">=15.0.0"
   },
   "dependencies": {
@@ -29,9 +29,9 @@
     "rimraf": "^3.0.2"
   },
   "peerDependencies": {
-    "eslint": "^7.x",
-    "eslint-plugin-react": "^7.x",
-    "eslint-plugin-react-hooks": "^4.x"
+    "eslint": "^7.13.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0"
   },
   "gitHead": "b53270915adee5d21e66b5e8baa712254e82e87e"
 }
