@@ -11,17 +11,17 @@ Base eslint config for Bud projects with Prettier and Typescript
 
 This package contains all the base, common Javascriot Eslint configs for projects using Prettier and Typescript.
 
-* [Table of contents](#)
-  * [Quickstart](#-quickstart)
-  * [Contributing](#-contributing)
-  * [License](#-license)
+- [Table of contents](#)
+  - [Quickstart](#-quickstart)
+  - [Contributing](#-contributing)
+  - [License](#-license)
 
 ## 🧙‍♂️ Quickstart
 
 To install this config, you must run the following command:
 
 ```sh
-yarn add -D eslint eslint-plugin-prettier @budproj/eslint-config-prettier-ts
+yarn add -D @budproj/eslint-config-prettier-ts
 ```
 
 To use it, you can put the following in your `.eslintrc` file:

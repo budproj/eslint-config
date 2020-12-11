@@ -11,17 +11,17 @@ Base eslint config for Bud React projects
 
 This package contains all the base, common Javascriot Eslint configs for all React projects.
 
-* [Table of contents](#)
-  * [Quickstart](#-quickstart)
-  * [Contributing](#-contributing)
-  * [License](#-license)
+- [Table of contents](#)
+  - [Quickstart](#-quickstart)
+  - [Contributing](#-contributing)
+  - [License](#-license)
 
 ## 🧙‍♂️ Quickstart
 
 To install this config, you must run the following command:
 
 ```sh
-yarn add -D eslint eslint-plugin-react eslint-plugin-react-hooks @budproj/eslint-config-react
+yarn add -D @budproj/eslint-config-react
 ```
 
 To use it, you can put the following in your `.eslintrc` file:

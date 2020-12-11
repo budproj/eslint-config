@@ -11,24 +11,24 @@ Base eslint config for Bud Typescript projects
 
 This package contains all the base, common Javascriot Eslint configs for all Typescript projects (both front-end and back-end scopes). You should put here only global configurations that we should share accross multiple projects.
 
-* [Table of contents](#)
-  * [Quickstart](#-quickstart)
-  * [Contributing](#-contributing)
-  * [License](#-license)
+- [Table of contents](#)
+  - [Quickstart](#-quickstart)
+  - [Contributing](#-contributing)
+  - [License](#-license)
 
 ## 🧙‍♂️ Quickstart
 
 To install this config, you must run the following command:
 
 ```sh
-yarn add -D eslint eslint-plugin-unicorn eslint-plugin-editorconfig eslint-plugin-import eslint-plugin-unused-imports eslint-import-resolver-typescript @budproj/eslint-config-base-ts
+yarn add -D @budproj/eslint-config-base-ts
 ```
 
 To use it, you can put the following in your `.eslintrc` file:
 
 ```json
 {
-  "extends": "@budproj/eslint-config-base-ts",
+  "extends": "@budproj/eslint-config-base-ts"
 }
 ```
 

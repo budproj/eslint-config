@@ -11,17 +11,17 @@ Base eslint config for Bud Intl projects
 
 This package contains all the base, common Javascriot Eslint configs for all Intl projects.
 
-* [Table of contents](#)
-  * [Quickstart](#-quickstart)
-  * [Contributing](#-contributing)
-  * [License](#-license)
+- [Table of contents](#)
+  - [Quickstart](#-quickstart)
+  - [Contributing](#-contributing)
+  - [License](#-license)
 
 ## 🧙‍♂️ Quickstart
 
 To install this config, you must run the following command:
 
 ```sh
-yarn add -D eslint eslint-plugin-formatjs @budproj/eslint-config-intl
+yarn add -D @budproj/eslint-config-intl
 ```
 
 To use it, you can put the following in your `.eslintrc` file:

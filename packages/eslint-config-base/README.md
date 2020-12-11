@@ -11,17 +11,17 @@ Base eslint config for Bud Javascript projects
 
 This package contains all the base, common Javascriot Eslint configs for all Javascript projects (both front-end and back-end scopes). You should put here only global configurations that we should share accross multiple projects.
 
-* [Table of contents](#)
-  * [Quickstart](#-quickstart)
-  * [Contributing](#-contributing)
-  * [License](#-license)
+- [Table of contents](#)
+  - [Quickstart](#-quickstart)
+  - [Contributing](#-contributing)
+  - [License](#-license)
 
 ## 🧙‍♂️ Quickstart
 
 To install this config, you must run the following command:
 
 ```sh
-yarn add -D eslint eslint-plugin-unicorn eslint-plugin-editorconfig @budproj/eslint-config-base
+yarn add -D @budproj/eslint-config-base
 ```
 
 To use it, you can put the following in your `.eslintrc` file:

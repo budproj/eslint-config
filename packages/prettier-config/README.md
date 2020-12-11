@@ -11,17 +11,17 @@ Base Prettier config for Bud Javascript projects
 
 This package contains all the base, common Javascriot Prettier configs for all Javascript projects.
 
-* [Table of contents](#)
-  * [Quickstart](#-quickstart)
-  * [Contributing](#-contributing)
-  * [License](#-license)
+- [Table of contents](#)
+  - [Quickstart](#-quickstart)
+  - [Contributing](#-contributing)
+  - [License](#-license)
 
 ## 🧙‍♂️ Quickstart
 
 To install this config, you must run the following command:
 
 ```sh
-yarn add -D prettier @budproj/prettier-config
+yarn add -D @budproj/prettier-config
 ```
 
 To use it, you can put the following in your `.prettierrc` file:
