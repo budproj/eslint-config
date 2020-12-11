@@ -1,6 +1,6 @@
 {
   "name": "@budproj/prettier-config",
-  "version": "0.0.12",
+  "version": "1.0.0",
   "description": "Base Prettier config for Bud Javascript projects",
   "main": "index.js",
   "scripts": {
