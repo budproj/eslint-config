@@ -16,7 +16,7 @@ module.exports = {
     "no-console": "off",
     "comma-dangle": ["error", "always-multiline"],
     "import/prefer-default-export": "off",
-    "unicorn/no-reduce": "off",
-    "unicorn/no-fn-reference-in-iterator": "off"
+    "unicorn/no-new-array": "off",
+    "unicorn/no-array-reduce": "off"
   }
 };
