@@ -17,6 +17,7 @@ module.exports = {
     "comma-dangle": ["error", "always-multiline"],
     "import/prefer-default-export": "off",
     "unicorn/no-new-array": "off",
+    "unicorn/no-array-reduce": "off",
     "unicorn/no-array-reduce": "off"
   }
 };
