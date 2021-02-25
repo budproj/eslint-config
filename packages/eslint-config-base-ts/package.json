@@ -35,7 +35,7 @@
     "eslint": "^7.13.0",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-unicorn": "^23.0.0",
+    "eslint-plugin-unicorn": "^28.0.0",
     "eslint-plugin-unused-imports": "^1.0.0"
   },
   "gitHead": "b53270915adee5d21e66b5e8baa712254e82e87e"
